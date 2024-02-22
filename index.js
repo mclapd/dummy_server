@@ -27,6 +27,6 @@ mongoose
     console.log(e);
   });
 
-app.listen(PORT, () => {
+app.listen(PORT, "https://dummy-server-alpha.vercel.app", () => {
   console.log(`connected at port ${PORT}`);
 });
